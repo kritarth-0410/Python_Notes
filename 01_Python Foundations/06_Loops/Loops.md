@@ -32,10 +32,11 @@ range(start, stop, step)
 
 Examples:
 
+```python
 range(5) # 0 1 2 3 4
 range(1, 6) # 1 2 3 4 5
 range(1, 10, 2) # 1 3 5 7 9
-
+```
 
 
 # 5. Loop with list
