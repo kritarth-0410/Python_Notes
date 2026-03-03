@@ -67,13 +67,13 @@ s = "hello"
 ```
 
 
-# 5. Common Mistakes
+# 6. Common Mistakes
 
 - Adding string and integer
 - Forgetting type conversion
 
 
-# 6. Quick Revision
+# 7. Quick Revision
 
 - Data type categories
 - Type casting
