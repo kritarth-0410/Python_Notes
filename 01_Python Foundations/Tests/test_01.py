@@ -60,3 +60,35 @@ for i in range(1, N+1):
     for j in range(1, i+1):
         print(j, end=" ")
     print()
+
+
+
+
+# # 6. Take space separated integers input. Print sum of even numbers only.
+
+nums = list(map(int, input().split()))
+sum = 0
+for i in nums:
+    if i%2 == 0:
+        sum += i
+print(sum)
+
+
+
+
+# # 7. Take integer N. Print numbers from N to 1
+
+N = int(input())
+for i in range(N,0,-1):
+    print(i)
+
+
+
+
+# # 8. Ladder pattern same numbers in line
+
+n = int(input())
+for i in range(1, n+1):
+    for j in range(1, i+1):
+        print(i, end = " ")
+    print()
