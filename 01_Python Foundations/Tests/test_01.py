@@ -27,7 +27,7 @@ largest = l[0]
 for i in l:
     if largest < i:
         largest = i
-        print("largest is", largest)
+print("largest is", largest)
 
 
 
@@ -92,3 +92,4 @@ for i in range(1, n+1):
     for j in range(1, i+1):
         print(i, end = " ")
     print()
+
